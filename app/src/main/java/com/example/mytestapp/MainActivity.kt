@@ -10,7 +10,7 @@ class MainActivity : AppCompatActivity(), MainContract.View {
         setContentView(R.layout.activity_main)
     }
 
-    override fun addMessage(message: String) {
+    override fun addMessage(message: String?) {
 
     }
 
